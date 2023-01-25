@@ -2,16 +2,36 @@
     margin: 0;
     padding: 0;
 }
-body{
-}
+
 .container{
     background-color: rgb(6, 81, 56);
+   
     display: flex;
     height: auto;
+    justify-content: space-between;
 }
-.content{
+.nav{
     padding-left: 200px;
     color: black;
+    display: flex;
+}
+.nav li{
+    position: relative;
+    justify-content: space-between;
+}
+.nav a{
+    display: inline-block;
+    color: rgb(243, 239, 239);
+    font-weight: 300;
+    font-size: 1 rem;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: rgb(88, 7, 7);
+    transition: all 0.5s ease;
+} 
+.nav a:hover{
+    background: rgb(230, 228, 236);
+    color: rgb(201, 21, 15);
 }
 .button{
     margin-top: 50px;
