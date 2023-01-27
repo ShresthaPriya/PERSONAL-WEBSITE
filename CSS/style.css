@@ -1,32 +1,73 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color:#B1D8B7
+    background-color:#B1D8B7;
+    
 }
 .container{
-    display: flex;
-    height: auto;
-    justify-content: space-around;
-    position: relative;
-    height: 100%;
-    width: 100%
-}
-
-.logo{
     
 }
 
+.nav{
+    padding: 0;
+    color: black;
+    display: flex;
+    margin-top: 2px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+   
+}
+.nav img{
+    width: 100px;
+    height: 100px;
+}
+
+.navlinks{
+flex: 1;
+text-align: right;
+
+}
+
+
+.navlinks ul li{
+    position: relative;
+    justify-content: space-between;
+    list-style: none;
+    display: inline-block;
+}
+.navlinks a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(243, 239, 239);
+    font-weight: 400;
+    font-size: 1 rem;
+    border-radius: 20px;
+    padding: 5px 30px;
+    background: #94C973;
+    transition: all 0.5s ease;
+} 
+.navlinks a:hover{
+    background: rgb(230, 228, 236);
+    color: rgb(201, 21, 15);
+}
+
+
 .content{
     font-size: 22px;
-    margin-left: 25px;
+    margin-left: 150px;
+    margin-top: 30px;
 }
 h1{
    font-weight: 700;
-   font-family: 'Times New Roman', Times, serif;
+   font-family: 'Poppins', sans-serif;
    margin-top: 24px;
    margin-bottom: 12px;
+   
    
 }
 p{
@@ -35,7 +76,8 @@ p{
 }
 
 .button{
-    margin-top: 5px;
+   position:relative;
+   cursor: pointer;
     
 }
 .button a{
@@ -54,33 +96,9 @@ p{
     background: #2F5233;
     color: rgb(4, 2, 18);
 }
+@media(max-width: 700px){
+.content{
+    font-size: 9px;
+}
+}
 
-.nav{
-    padding-left: 200px;
-    color: black;
-    display: flex;
-    margin-top: 5px;
-    
-    
-   
-}
-.nav li{
-    position: relative;
-    justify-content: space-between;
-    list-style: none;
-}
-.nav a{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(243, 239, 239);
-    font-weight: 300;
-    font-size: 1 rem;
-    border-radius: 20px;
-    padding: 5px 30px;
-    background: #94C973;
-    transition: all 0.5s ease;
-} 
-.nav a:hover{
-    background: rgb(230, 228, 236);
-    color: rgb(201, 21, 15);
-}
