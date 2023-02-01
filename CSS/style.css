@@ -34,11 +34,12 @@
     color: rgb(201, 21, 15); 
     box-shadow: 0 0 10px wheat;
 }
-
+/* #Home */
 #Home{
     display: flex;
     flex-direction: column;
     background-color:#D9ACF5;
+    background-image: url('bG.jpg');
     height: 840px;
     justify-content: center;
     align-items: center;
@@ -47,12 +48,8 @@
 #Home::before{
     content: "";
     position: absolute;
-    top: 0;
-    right: 0;
-    background: radial-gradient(#EBC7E6) no-repeat center center/cover;
     width: 100%;
     height: 900px;
-    z-index: -1;
     opacity: .8;
 }
 .Content{
@@ -87,13 +84,14 @@
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 font-weight: 700;
 }
+/* #Introduction */
 #Introduction{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 20px;
     background:#FFCEFE;
-    margin-bottom: 50px;
+    
 }
 #pic{
     display: flex;
