@@ -4,6 +4,10 @@
     justify-content: center;
 
 }
+.media-icon{
+    align-items: center;
+   padding-top: 32px;
+}
 /* Headings */
 .Headings{
     font-size: 2 rem;

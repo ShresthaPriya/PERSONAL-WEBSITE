@@ -10,7 +10,9 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background: #daaed6
+    background: #daaed6;
+    opacity: 0.8;
+
 }
 .navlist ul{
     list-style: none;
@@ -40,7 +42,7 @@
     flex-direction: column;
     background-color:#D9ACF5;
     background-image: url('bG.jpg');
-    height: 840px;
+    height: 700px;
     justify-content: center;
     align-items: center;
     color: aliceblue;
@@ -83,6 +85,16 @@
     color: red;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 font-weight: 700;
+}
+.media-icon{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    height: 10px;
+    align-items: center;
+   padding-top: 23px;
+
 }
 /* #Introduction */
 #Introduction{
