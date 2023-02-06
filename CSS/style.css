@@ -16,7 +16,7 @@
 }
 .navlist ul{
     list-style: none;
-    display: flex;
+    display: inline-flex;
     margin: 20px 0px;
 }
 .navlist ul li{
@@ -42,7 +42,7 @@
     flex-direction: column;
     background-color:#D9ACF5;
     background-image: url('bG.jpg');
-    height: 700px;
+    height: 820px;
     justify-content: center;
     align-items: center;
     color: aliceblue;
@@ -57,6 +57,7 @@
 .Content{
     display: flex;
     flex-direction: column;
+    height: 100vh;
     border: 1pz solid white;
     align-items: center;
     position: absolute;
@@ -223,4 +224,13 @@ margin: 10px;
     color:white;
     transition: all 0.5s;
 }
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
 

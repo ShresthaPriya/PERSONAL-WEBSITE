@@ -11,6 +11,7 @@
 #pic img{
     width: 240px;
     height: 270px;
+    justify-content: space-around;
 }
 #intro h2{
     font-size: 1.1 rem;
