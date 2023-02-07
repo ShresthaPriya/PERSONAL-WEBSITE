@@ -26,25 +26,26 @@
 }
 .navlist a{
     text-decoration: none;
-    color: rgb(243, 239, 239);
+    color: rgb(126, 9, 48);
     font-weight: 400;
     padding: 8px 25px;
     transition: all 0.5s ease;
 } 
 .navlist a:hover{
-    background: rgb(230, 228, 236);
-    color: rgb(201, 21, 15); 
-    box-shadow: 0 0 10px wheat;
-}
+        background-color: rgb(230, 228, 236);
+        color: rgb(201, 21, 15);
+        box-shadow: 0 0 10px wheat;
+        transition: all 0.5s ease;
+      }
+      
+
 /* #Home */
 #Home{
     display: flex;
     flex-direction: column;
     background-color:#D9ACF5;
-    background-image: url('bG.jpg');
     height: 820px;
     justify-content: center;
-    align-items: center;
     color: aliceblue;
 }
 #Home::before{
@@ -52,7 +53,7 @@
     position: absolute;
     width: 100%;
     height: 900px;
-    opacity: .8;
+   
 }
 .Content{
     display: flex;
@@ -72,6 +73,7 @@
     text-align: center;
     margin: 40px 0px;
 }
+
 .btn{
     padding: 10px 35px;
     background-color: transparent;
@@ -88,13 +90,12 @@
 font-weight: 700;
 }
 .media-icon{
-    justify-content: space-between;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     width: 160px;
     height: 10px;
     align-items: center;
-   padding-top: 23px;
+    margin-top: 23px;
 
 }
 /* #Introduction */
@@ -116,6 +117,7 @@ height: 400px;
 #intro{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: justify;
     padding: 20px;
 }
@@ -225,12 +227,17 @@ margin: 10px;
     transition: all 0.5s;
 }
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    
+
+
+  
 
 

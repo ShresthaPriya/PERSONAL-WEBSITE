@@ -11,6 +11,7 @@
 /* Headings */
 .Headings{
     font-size: 2 rem;
+    text-align: center;
 }
 /* #Introduction */
 #pic{
@@ -26,6 +27,7 @@
     text-align: center;
     padding: 10px;
 }
+
 /* contact */
 .input{
     width: 60%;
@@ -36,3 +38,9 @@
 #send{
     width: 20%;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+  }
