@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navlist{
+    display: flex;
+    color: bisque;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    background: #daaed6;
+    opacity: 0.8;
+
+}
+.navlist ul{
+    list-style: none;
+    display: inline-flex;
+    margin: 20px 0px;
+}
+.navlist ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navlist a{
+    text-decoration: none;
+    color: rgb(126, 9, 48);
+    font-weight: 400;
+    padding: 8px 25px;
+    transition: all 0.5s ease;
+} 
+.navlist a:hover{
+        background-color: rgb(230, 228, 236);
+        color: rgb(201, 21, 15);
+        box-shadow: 0 0 10px wheat;
+        transition: all 0.5s ease;
+      }
+      .Headings{
+        font-size: 32px;
+        text-align: center;
+    }
+      body{
+        background:#FFCEFE;
+    height: 100%;
+    width: 100%;
+
+      }
+
+/* #Introduction */
+#Introduction{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    height: auto;
+    width: auto;
+   
+    
+}
+#pic{
+    display: flex;
+}
+#pic img{
+width: 570px;
+height: 400px;
+
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#intro p{
+    font-weight: 700;
+    line-height: normal;
+}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+@media screen and (max-width: 800px){
+    .navlist ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    .media-icon{
+        align-items: center;
+       padding-top: 32px;
+    }
+    /* Headings */
+    .Headings{
+        font-size: 32px;
+        text-align: center;
+    }
+    /* #Introduction */
+#pic{
+    flex-direction: column;
+    align-items: center;
+    
+}
+#pic img{
+    width: 450px;
+    height: 380px;
+}
+#intro h2{
+    text-align: center;
+    padding: 10px;
+}
+
+}
+@media screen and (max-width: 800px){
+    .navlist{
+        position: relative;
+    }
+    .navlist ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    .media-icon{
+        align-items: center;
+       padding-top: 32px;
+    }
+    /* Headings */
+    .Headings{
+        font-size: 32px;
+        text-align: center;
+    }
+    /* #Introduction */
+#pic{
+    flex-direction: column;
+    align-items: center;
+    
+}
+#pic img{
+    width: 450px;
+    height: 380px;
+}
+#intro h2{
+    text-align: center;
+    padding: 10px;
+}
+
+}
